@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Héroe de vida</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_juego">Adivina el órgano</string>
+    <string name="title_activity_organos">Órganos</string>
+    <string name="title_activity_conoce_mas">Conoce Más</string>
+    <string name="title_activity_conocenos">Conócenos</string>
+    <string name="strOrganos">Órganos</string>
+    <string name="strJuega">Juega</string>
+    <string name="strConoceMas">Conoce más</string>
+    <string name="strConocenos">Conócenos</string>
+    <string name="strAdivina">Adivina el órgano</string>
+    <string name="btnAdivina">Adivina</string>
+
+    <string name="strCorazon">Corazón</string>
+    <string name="strPulmon">Pulmón</string>
+    <string name="strHueso">Hueso</string>
+    <string name="strHigado">Hígado</string>
+    <string name="strRiñones">Riñones</string>
+    <string name="strCorneas">Córneas</string>
+    <string name="strIntestinos">Intestino</string>
+
+    <string name="acerca_de">Acerda de...</string>
+    <string name="title_activity_acerca_de">Acerca de</string>
+    <string name="txt_acerca_de">App desarrollada para el Hackathon 2015</string>
+</resources>

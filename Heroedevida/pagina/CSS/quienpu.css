@@ -1,0 +1,192 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+body{
+	background: #f2f2f2;
+	background-image: url("utilerias/fondo.png");
+	background-repeat: no-repeat;
+
+}
+
+
+/* Seccion Menu */
+
+.menu_bar {
+	display:none;
+}
+ header {
+	width: 100%;
+}
+ 
+header nav {
+	background:#1fbad6;
+	z-index:1000;
+	width:100%;
+}
+ 
+header nav ul {
+	list-style:none;
+}
+ 
+header nav ul li {
+	display:inline-block;
+	position: relative;
+}
+ 
+header nav ul li:hover {
+	background:#89df25;
+	color: white;
+	text-decoration: none;
+}
+ 
+header nav ul li a {
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+}
+ 
+header nav ul li a span {
+	margin-right:10px;
+}
+ 
+header nav ul li:hover .children {
+	display:block;
+}
+ 
+header nav ul li .children {
+	display: none;
+	background:#86e4b0;
+	position: absolute;
+	width: 150%;
+	z-index:1000;
+}
+ 
+header nav ul li .children li {
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+ 
+header nav ul li .children li a {
+	display: block;
+}
+ 
+header nav ul li .children li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+ 
+header nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+
+	#pie{
+	background:#7f367a;
+	color: white;
+	text-align: center;
+    margin: 10px;
+}
+
+.azul{
+background: #3498db;
+color: white;
+}
+
+.rosa{
+background: #f39bdf;
+color: white;
+}
+
+.verde{
+background:#63c975;
+color: white;
+}
+
+.morado{
+background:#ab5bff;
+color: white;
+}
+ .uno .arti h1{
+	font-family: 'Oswald', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		padding-top:80px;
+	}
+
+   #btn-toggle{
+   	display: none;
+   }
+
+	.logo{
+		display: none;
+	}
+ 
+	.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		background:#3498db;
+	}
+ 
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+ 
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+ 
+	header nav {
+		width: 80%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+	}
+ 
+	header nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+ 
+	header nav ul li a {
+		display: block;
+	}
+ 
+	header nav ul li:hover .children {
+		display: none;
+	}
+ 
+	header nav ul li .children {
+		width: 100%;
+		position: relative;
+	}
+ 
+	header nav ul li .children li a {
+		margin-left:20px;
+	}
+ 
+	header nav ul li .caret {
+		float: right;
+	}
+}

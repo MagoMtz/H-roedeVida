@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+
+    tools:context="com.mago.heroedevida.Acerca_de">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/txt_acerca_de"
+        android:id="@+id/textView4"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+</FrameLayout>
