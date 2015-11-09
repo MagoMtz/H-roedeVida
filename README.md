@@ -17,7 +17,5 @@ Las tecnologías usadas fuerón:
   
   -Bases de datos con MySQL
   
-  -adobe photoshop e illustr
-  ator
+  -adobe photoshop e illustrator
   
-Página web alojada en: http://heroedevida.org/
